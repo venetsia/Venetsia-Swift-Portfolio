@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venetsia — indie apps for Apple platforms</title>
+<meta name="description" content="Small, focused, privacy-respecting apps for iPhone, iPad, Mac & Apple Watch — by Venetsia, indie developer.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;
+         background:radial-gradient(1200px 600px at 50% -10%, #1c1b2e, #0c0c11 60%); color:#ececf2; min-height:100vh; }
+  .wrap { max-width:1040px; margin:0 auto; padding:72px 24px 56px; }
+  header { text-align:center; margin-bottom:48px; }
+  header h1 { font-size:clamp(34px,6vw,56px); margin:0 0 10px; letter-spacing:-0.02em; }
+  header p { font-size:18px; color:#a8a8b8; max-width:560px; margin:0 auto; line-height:1.5; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:20px; }
+  .card { background:linear-gradient(180deg,#17171f,#121219); border:1px solid #24242f; border-radius:20px;
+          padding:24px; display:flex; flex-direction:column; align-items:flex-start;
+          box-shadow:0 1px 0 #ffffff0a inset, 0 0 0 0 var(--accent); transition:transform .15s, box-shadow .15s, border-color .15s; }
+  .card:hover { transform:translateY(-3px); border-color:var(--accent); box-shadow:0 14px 40px -18px var(--accent); }
+  .icon { width:84px; height:84px; border-radius:21%; margin-bottom:16px; object-fit:cover;
+          box-shadow:0 6px 18px -8px #000; }
+  .icon.placeholder { display:flex; align-items:center; justify-content:center; font-size:38px; font-weight:700; color:#fff; }
+  .card h2 { font-size:21px; margin:0 0 6px; }
+  .tag { color:#a8a8b8; font-size:14px; line-height:1.5; margin:0 0 16px; flex:1; }
+  .plats { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:18px; }
+  .plat { font-size:11px; font-weight:600; color:#c9c9d6; background:#ffffff12; padding:3px 9px; border-radius:999px; }
+  .badge { font-size:14px; font-weight:600; text-decoration:none; padding:9px 16px; border-radius:11px; }
+  .badge.store { background:var(--accent); color:#fff; }
+  .badge.store:hover { filter:brightness(1.08); }
+  .badge.soon { background:#ffffff14; color:#b9b9c8; }
+  footer { text-align:center; color:#6f6f80; font-size:13px; margin-top:56px; }
+  footer a { color:#9a9ad0; }
+</style></head>
+<body><div class="wrap">
+  <header>
+    <h1>Venetsia</h1>
+    <p>Indie developer. I build small, focused, privacy-respecting apps for iPhone, iPad, Mac &amp; Apple Watch.</p>
+  </header>
+  <main class="grid">
+      <article class="card" style="--accent:#E8923A">
+        <img class="icon" src="assets/icons/6760735030.png" alt="HammyNest icon">
+        <h2>HammyNest</h2>
+        <p class="tag">Hamster care companion for the whole family</p>
+        <div class="plats"><span class="plat">iOS</span><span class="plat">iPadOS</span><span class="plat">macOS</span><span class="plat">watchOS</span></div>
+        <a class="badge store" href="https://apps.apple.com/gb/app/hammynest/id6760735030?uo=4" target="_blank" rel="noopener">View on the App Store ↗</a>
+      </article>
+      <article class="card" style="--accent:#4FA3D1">
+        <img class="icon" src="assets/icons/6771794811.png" alt="Symply icon">
+        <h2>Symply</h2>
+        <p class="tag">Asthma &amp; respiratory self-management</p>
+        <div class="plats"><span class="plat">iOS</span><span class="plat">watchOS</span></div>
+        <a class="badge store" href="https://apps.apple.com/gb/app/symply/id6771794811?uo=4" target="_blank" rel="noopener">View on the App Store ↗</a>
+      </article>
+      <article class="card" style="--accent:#7B61FF">
+        <img class="icon" src="assets/icons/6764564726.png" alt="NEATEd icon">
+        <h2>NEATEd</h2>
+        <p class="tag">Watch AI learn — live, side by side</p>
+        <div class="plats"><span class="plat">iOS</span><span class="plat">iPadOS</span><span class="plat">macOS</span></div>
+        <a class="badge store" href="https://apps.apple.com/gb/app/neatedapp/id6764564726?uo=4" target="_blank" rel="noopener">View on the App Store ↗</a>
+      </article>
+      <article class="card" style="--accent:#C8A06A">
+        <img class="icon" src="assets/icons/6775538020.png" alt="Loafe icon">
+        <h2>Loafe</h2>
+        <p class="tag">Cozy lo-fi you make yourself — no AI, no samples, offline</p>
+        <div class="plats"><span class="plat">iOS</span></div>
+        <a class="badge store" href="https://apps.apple.com/gb/app/loafe/id6775538020?uo=4" target="_blank" rel="noopener">View on the App Store ↗</a>
+      </article>
+      <article class="card" style="--accent:#FF4D6D">
+        <img class="icon" src="assets/icons/6761011260.png" alt="Moshed icon">
+        <h2>Moshed</h2>
+        <p class="tag">Creative glitch / datamosh media effects</p>
+        <div class="plats"><span class="plat">iOS</span><span class="plat">macOS (Catalyst)</span></div>
+        <a class="badge store" href="https://apps.apple.com/gb/app/moshed/id6761011260?uo=4" target="_blank" rel="noopener">View on the App Store ↗</a>
+      </article>
+      <article class="card" style="--accent:#5B6CB0">
+        <div class="icon placeholder" style="background:#5B6CB0">E</div>
+        <h2>Evenfall</h2>
+        <p class="tag">Soft-on-the-eyes Mac dimmer — content-aware dimming + warmth</p>
+        <div class="plats"><span class="plat">macOS</span></div>
+        <span class="badge soon">Coming soon</span>
+      </article></main>
+  <footer>Made solo, with care. · <a href="https://github.com/venetsia">GitHub</a></footer>
+</div></body></html>
